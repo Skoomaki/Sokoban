@@ -20,10 +20,11 @@ public class Sokoban {
         
 //      test to see that level1.txt file can be read and put out correctly in console 
         File levelOneTest = new File("resources/SokobanMaps/level1.txt");
-        Scanner level = new Scanner(levelOneTest);
-        
-        while(level.hasNext()){
-            String s = level.nextLine().trim();
+//      used to scan text file  
+        Scanner levelScan = new Scanner(levelOneTest);
+//      while loop that scans while hasNext is true
+        while(levelScan.hasNext()){
+            String s = levelScan.nextLine();
             System.out.println(s);
             
         }

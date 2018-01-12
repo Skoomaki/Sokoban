@@ -87,6 +87,6 @@ public class SokobanGame extends JComponent implements ActionListener {
 //  used to stop error of actionlistener implementation for now  
     @Override
     public void actionPerformed(ActionEvent e) {
-        throw new UnsupportedOperationException("Buttons haven't been set yet"); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Buttons haven't been set yet"); 
     }
 }
