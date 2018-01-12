@@ -31,7 +31,7 @@ public class Level extends JComponent implements ActionListener {
         
     }
         
-//  method for checking if the win condition has been met  
+//  method for checking if the win condition has been met (all crates on diamonds) 
     public void checkForWin() {
         
     }

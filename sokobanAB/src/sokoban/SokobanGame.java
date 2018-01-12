@@ -23,6 +23,7 @@ public class SokobanGame extends JComponent implements ActionListener {
     public JButton downButton;
     public JButton leftButton;
     public JButton rightButton;
+    public JButton restartLevelButton;
     public int levelNumber;
     public Level firstLevel;
     
@@ -67,6 +68,14 @@ public class SokobanGame extends JComponent implements ActionListener {
     rightButton.setVisible(true);
 //  when button is clicked, an action is sent  
     rightButton.addActionListener(this);
+    
+    restartLevelButton = new JButton("RESTART");
+//  adds button to mainWindow  
+    mainWindow.add(restartLevelButton);
+    restartLevelButton.setBounds(550,10,100,30);
+    restartLevelButton.setVisible(true);
+//  when button is clicked, an action is sent to ActionEvent in restartLevel() method  
+    restartLevelButton.addActionListener(this);
     
     
     
