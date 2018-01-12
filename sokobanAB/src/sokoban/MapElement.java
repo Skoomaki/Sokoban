@@ -10,19 +10,26 @@ import javax.swing.JLabel;
 
 // Class responsible for handling non-moving objects (association)
 public class MapElement extends JLabel {
-    
-    public String objectName;
-    public String objectAsSymbol;
+//  private fields should be used when possible  
+    private String objectName;
+    private String objectAsSymbol;
     public String objectImgName;
     
 //  enscapsulation  
-//  getter  
+//  getters  
     public String getObjectName() {
         return objectName;
     }
-//  setter  
     public String getObjectAsSymbol() {
         return objectAsSymbol;
     }
+//  setters
+    public void setObjectName(String newObjectName){
+        objectName = newObjectName;
+    }
+    public void setObjectAsSymbol(String newObjectAsSymbol){
+        objectAsSymbol = newObjectAsSymbol;
+    }
+    
     
 }

@@ -1,6 +1,8 @@
 
 package sokoban;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Adam
@@ -10,9 +12,12 @@ public class Wall extends MapElement {
     
     public Wall() {
 //      name of object
-        objectName = "Wall";
+        setObjectName("Wall");
 //      symbol that represents object in text file  
-        objectAsSymbol = "X";
+        setObjectAsSymbol("X");
+//      point to where assets are to display object
+        objectImgName = "resources/SokobanImages/Wall.png";
+        this.setIcon(new ImageIcon(objectImgName));        
     }
     
 }

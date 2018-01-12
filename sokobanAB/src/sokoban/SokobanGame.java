@@ -66,6 +66,8 @@ public class SokobanGame extends JComponent implements ActionListener {
 //  when button is clicked, an action is sent  
     rightButton.addActionListener(this);
     
+    
+    
 }
     
 //  used to stop error of actionlistener implementation for now  

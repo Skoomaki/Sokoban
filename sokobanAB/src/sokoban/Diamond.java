@@ -1,6 +1,8 @@
 
 package sokoban;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Adam
@@ -10,9 +12,12 @@ public class Diamond extends MapElement {
 
     public Diamond() {
 //      name of object
-        objectName = "Diamond";
+        setObjectName("Diamond");
 //      symbol that represents object in text file         
-        objectAsSymbol = ".";
+        setObjectAsSymbol(".");
+//      point to where assets are to display object
+        objectImgName = "resources/SokobanImages/Diamond.png";
+        this.setIcon(new ImageIcon(objectImgName));
     }
 
 }

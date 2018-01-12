@@ -8,7 +8,7 @@ package sokoban;
 public class MoveableMapElement extends MapElement {
     
 //  coordinates for objects  
-    Coordinate positionInMap;
+    private final Coordinate positionInMap;
     
     MoveableMapElement(int newX, int newY) {
         positionInMap = new Coordinate(newX,newY);

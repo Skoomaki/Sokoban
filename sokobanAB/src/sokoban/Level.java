@@ -38,7 +38,7 @@ public class Level extends JComponent implements ActionListener {
     public void restartLevel() {
         
     }
-//  error for abstract method, this is stop error for now
+//  error for abstract method, this is stop error for now in class
     @Override
     public void actionPerformed(ActionEvent e) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

@@ -1,6 +1,8 @@
 
 package sokoban;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Adam
@@ -10,9 +12,12 @@ public class Floor extends MapElement {
     
     public Floor() {
 //      name of object
-        objectName = "Floor";
+        setObjectName("Floor");
 //      symbol that represents object in text file          
-        objectAsSymbol = " ";
+        setObjectAsSymbol(" ");
+//      point to where assets are to display object
+        objectImgName = "resources/SokobanImages/Floor.png";
+        this.setIcon(new ImageIcon(objectImgName));
     }
     
 }
