@@ -25,6 +25,7 @@ public class Level extends JComponent implements ActionListener {
 //  will have a scanner that can read from text file to build level  
     public void loadMap (int numberOfLevel) {
         
+        
     }
 //  method for checking if the win condition has been met  
     public void checkForWin() {
