@@ -20,5 +20,10 @@ public class MoveableMapElement extends MapElement {
     public int getYCoord() {
         return positionInMap.getY();
     }
+//  setter for x and y coordinate
+    public void setPositionInMap(int newX, int newY){
+        positionInMap.setX(newX);
+        positionInMap.setY(newY);
+    }
     
 }

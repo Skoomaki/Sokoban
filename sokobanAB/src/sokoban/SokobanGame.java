@@ -26,6 +26,7 @@ public class SokobanGame extends JComponent implements ActionListener {
     public JButton restartLevelButton;
     public int levelNumber;
     public Level firstLevel;
+    WarehouseKeeper warehouseKeeper;
     
     SokobanGame() {
 //  mainWindow is a new type of JFrame  
@@ -76,6 +77,8 @@ public class SokobanGame extends JComponent implements ActionListener {
     restartLevelButton.setVisible(true);
 //  when button is clicked, an action is sent to ActionEvent in restartLevel() method  
     restartLevelButton.addActionListener(this);
+//    (?) trying to get warehousekeeper to display in panel 
+//    warehouseKeeper.setPositionInMap(20,20,40,40);
     
     
     

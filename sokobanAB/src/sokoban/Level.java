@@ -13,7 +13,7 @@ import javax.swing.JLabel;
  * @author Adam
  */
 public class Level extends JComponent implements ActionListener {
-//  2d array of non-moveable objects (wall, diamond, floor);  
+//  2d array of non-moveable objects (wall, diamond, floor)(width/height)  
     MapElement map[][];
 //  array of crates 
     Crate crates[];

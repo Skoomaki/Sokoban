@@ -30,6 +30,9 @@ public class MapElement extends JLabel {
     public void setObjectAsSymbol(String newObjectAsSymbol){
         objectAsSymbol = newObjectAsSymbol;
     }
-    
-    
+//  using set bounds to decide a width and height using "limit" - used by warehouseKeeper and Crate  
+    public void setBounds(int x, int y){
+        int limit = 32;
+        setBounds(x,y,limit,limit);
+      }
 }
