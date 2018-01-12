@@ -18,8 +18,7 @@ public class WarehouseKeeper extends MoveableMapElement {
         setObjectAsSymbol("@");
 //      point to where assets are to display object (?) not sure if I can put a setter here for img name
         objectImgName = "resources/SokobanImages/WarehouseKeeper.png";
-        this.setIcon(new ImageIcon(objectImgName));
-                
+        this.setIcon(new ImageIcon(objectImgName));            
+    }
     
-}
 }

@@ -3,6 +3,7 @@ package sokoban;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
@@ -26,10 +27,10 @@ public class Level extends JComponent implements ActionListener {
     JButton restartLevelButton;
     
 //  will have a scanner that can read from text file to build level  
-    public void loadMap (int levelNumber) {
-        
+    public void loadMap (int levelNumber) throws FileNotFoundException {
         
     }
+        
 //  method for checking if the win condition has been met  
     public void checkForWin() {
         

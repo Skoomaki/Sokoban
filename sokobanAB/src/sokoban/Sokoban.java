@@ -13,6 +13,7 @@ public class Sokoban {
     public static void main(String[] args) {
 //      instance of object SokobanGame  
         SokobanGame game = new SokobanGame();
+        
     }
     
 }

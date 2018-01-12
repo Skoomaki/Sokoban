@@ -21,4 +21,10 @@ public class Crate extends MoveableMapElement {
         this.setIcon(new ImageIcon(objectImgName));
     }
     
+//  depending if crate is on diamond, crate will change colour  
+    public void toggleCrateDisplay() {
+        
+    }
+
+    
 }

@@ -17,12 +17,14 @@ public class SokobanGame extends JComponent implements ActionListener {
     JFrame mainWindow;
 //    need to test that objects can be displayed before mre complex implementation
 //  Level currentLevel;
-//  set to 1 to get map 1
+//  set to 1 to get map 1 for testing
     int currentLevelSelected = 1;
     public JButton upButton;
     public JButton downButton;
     public JButton leftButton;
     public JButton rightButton;
+    public int levelNumber;
+    public Level firstLevel;
     
     SokobanGame() {
 //  mainWindow is a new type of JFrame  
@@ -69,10 +71,13 @@ public class SokobanGame extends JComponent implements ActionListener {
     
     
 }
+    public void loadLevel(int levelNumber) {
+       
+    }
     
 //  used to stop error of actionlistener implementation for now  
     @Override
     public void actionPerformed(ActionEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Buttons haven't been set yet"); //To change body of generated methods, choose Tools | Templates.
     }
 }
