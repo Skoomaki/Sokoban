@@ -18,12 +18,15 @@ public class Level extends JComponent implements ActionListener {
     Crate crates[];
 //  only one instance of warehousekeeper is needed  
     WarehouseKeeper warehouseKeeper;
+//  track number of moves a player has made per level  
     int numberOfMoves;
+//  label for number of moves a player has made  
     JLabel numberOfMovesLabel;
+//  button for restarting the game when the user clicks on it  
     JButton restartLevelButton;
     
 //  will have a scanner that can read from text file to build level  
-    public void loadMap (int numberOfLevel) {
+    public void loadMap (int levelNumber) {
         
         
     }

@@ -15,8 +15,10 @@ import javax.swing.WindowConstants;
 public class SokobanGame extends JComponent implements ActionListener {
     
     JFrame mainWindow;
-    Level currentLevel;
-    
+//    need to test that objects can be displayed before mre complex implementation
+//  Level currentLevel;
+//  set to 1 to get map 1
+    int currentLevelSelected = 1;
     public JButton upButton;
     public JButton downButton;
     public JButton leftButton;
@@ -63,11 +65,9 @@ public class SokobanGame extends JComponent implements ActionListener {
     rightButton.setVisible(true);
 //  when button is clicked, an action is sent  
     rightButton.addActionListener(this);
-
-    
-    
     
 }
+    
 //  used to stop error of actionlistener implementation for now  
     @Override
     public void actionPerformed(ActionEvent e) {

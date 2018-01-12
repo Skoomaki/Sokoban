@@ -15,4 +15,14 @@ public class MapElement extends JLabel {
     public String objectAsSymbol;
     public String objectImgName;
     
+//  enscapsulation  
+//  getter  
+    public String getObjectName() {
+        return objectName;
+    }
+//  setter  
+    public String getObjectAsSymbol() {
+        return objectAsSymbol;
+    }
+    
 }
